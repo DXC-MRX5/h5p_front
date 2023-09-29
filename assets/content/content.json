@@ -1,0 +1,420 @@
+{
+    "introPage": {
+        "showIntroPage": false,
+        "startButtonText": "Start Quiz",
+        "introduction": ""
+    },
+    "progressType": "dots",
+    "passPercentage": 30,
+    "questions": [
+        {
+            "params": {
+                "media": {
+                    "disableImageZooming": false
+                },
+                "answers": [
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>New York<\/div>\n"
+                    },
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>San Francisco<\/div>\n"
+                    },
+                    {
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Washington DC<\/div>\n"
+                    },
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Miami<\/div>\n"
+                    }
+                ],
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": false,
+                    "enableSolutionsButton": false,
+                    "enableCheckButton": false,
+                    "type": "auto",
+                    "singlePoint": true,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": true,
+                    "passPercentage": 100,
+                    "showScorePoints": false
+                },
+                "UI": {
+                    "checkAnswerButton": "Check",
+                    "submitAnswerButton": "Submit",
+                    "showSolutionButton": "Show solution",
+                    "tryAgainButton": "Retry",
+                    "tipsLabel": "Show tip",
+                    "scoreBarLabel": "You got :num out of :total points",
+                    "tipAvailable": "Tip available",
+                    "feedbackAvailable": "Feedback available",
+                    "readFeedback": "Read feedback",
+                    "wrongAnswer": "Wrong answer",
+                    "correctAnswer": "Correct answer",
+                    "shouldCheck": "Should have been checked",
+                    "shouldNotCheck": "Should not have been checked",
+                    "noInput": "Please answer before viewing the solution",
+                    "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                    "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                    "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                },
+                "confirmCheck": {
+                    "header": "Finish ?",
+                    "body": "Are you sure you wish to finish ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Finish"
+                },
+                "confirmRetry": {
+                    "header": "Retry ?",
+                    "body": "Are you sure you wish to retry ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Confirm"
+                },
+                "question": "<p>Capital of USA ?<\/p>\n"
+            },
+            "library": "H5P.MultiChoice 1.16",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "trial_1"
+            },
+            "subContentId": "dbde8414-03fc-4793-b594-4ffa639659d9"
+        },
+        {
+            "params": {
+                "media": {
+                    "disableImageZooming": false
+                },
+                "answers": [
+                    {
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Berlin<\/div>\n"
+                    },
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Hamburg<\/div>\n"
+                    },
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Dortmund<\/div>\n"
+                    },
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Munich<\/div>\n"
+                    }
+                ],
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": false,
+                    "enableSolutionsButton": false,
+                    "enableCheckButton": false,
+                    "type": "auto",
+                    "singlePoint": true,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": true,
+                    "passPercentage": 100,
+                    "showScorePoints": false
+                },
+                "UI": {
+                    "checkAnswerButton": "Check",
+                    "submitAnswerButton": "Submit",
+                    "showSolutionButton": "Show solution",
+                    "tryAgainButton": "Retry",
+                    "tipsLabel": "Show tip",
+                    "scoreBarLabel": "You got :num out of :total points",
+                    "tipAvailable": "Tip available",
+                    "feedbackAvailable": "Feedback available",
+                    "readFeedback": "Read feedback",
+                    "wrongAnswer": "Wrong answer",
+                    "correctAnswer": "Correct answer",
+                    "shouldCheck": "Should have been checked",
+                    "shouldNotCheck": "Should not have been checked",
+                    "noInput": "Please answer before viewing the solution",
+                    "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                    "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                    "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                },
+                "confirmCheck": {
+                    "header": "Finish ?",
+                    "body": "Are you sure you wish to finish ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Finish"
+                },
+                "confirmRetry": {
+                    "header": "Retry ?",
+                    "body": "Are you sure you wish to retry ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Confirm"
+                },
+                "question": "<p>Capital of Germany?<\/p>\n"
+            },
+            "library": "H5P.MultiChoice 1.16",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "trial_2"
+            },
+            "subContentId": "12a30d19-2828-438f-b2b2-41bf22ae87dd"
+        },
+        {
+            "params": {
+                "media": {
+                    "disableImageZooming": false
+                },
+                "answers": [
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Surabaya<\/div>\n"
+                    },
+                    {
+                        "correct": true,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Jakarta<\/div>\n"
+                    },
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Bandung<\/div>\n"
+                    },
+                    {
+                        "correct": false,
+                        "tipsAndFeedback": {
+                            "tip": "",
+                            "chosenFeedback": "",
+                            "notChosenFeedback": ""
+                        },
+                        "text": "<div>Bekasi<\/div>\n"
+                    }
+                ],
+                "overallFeedback": [
+                    {
+                        "from": 0,
+                        "to": 100
+                    }
+                ],
+                "behaviour": {
+                    "enableRetry": false,
+                    "enableSolutionsButton": false,
+                    "enableCheckButton": false,
+                    "type": "auto",
+                    "singlePoint": true,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": true,
+                    "passPercentage": 100,
+                    "showScorePoints": false
+                },
+                "UI": {
+                    "checkAnswerButton": "Check",
+                    "submitAnswerButton": "Submit",
+                    "showSolutionButton": "Show solution",
+                    "tryAgainButton": "Retry",
+                    "tipsLabel": "Show tip",
+                    "scoreBarLabel": "You got :num out of :total points",
+                    "tipAvailable": "Tip available",
+                    "feedbackAvailable": "Feedback available",
+                    "readFeedback": "Read feedback",
+                    "wrongAnswer": "Wrong answer",
+                    "correctAnswer": "Correct answer",
+                    "shouldCheck": "Should have been checked",
+                    "shouldNotCheck": "Should not have been checked",
+                    "noInput": "Please answer before viewing the solution",
+                    "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                    "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                    "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                },
+                "confirmCheck": {
+                    "header": "Finish ?",
+                    "body": "Are you sure you wish to finish ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Finish"
+                },
+                "confirmRetry": {
+                    "header": "Retry ?",
+                    "body": "Are you sure you wish to retry ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Confirm"
+                },
+                "question": "<p>Capital of Indonesia ?<\/p>\n"
+            },
+            "library": "H5P.MultiChoice 1.16",
+            "metadata": {
+                "contentType": "Multiple Choice",
+                "license": "U",
+                "title": "trial_3"
+            },
+            "subContentId": "a4b0afe5-27b1-46cc-98d4-b5136c4b33ba"
+        },
+        {
+            "params": {
+                "media": {
+                    "disableImageZooming": false
+                },
+                "correct": "false",
+                "behaviour": {
+                    "enableRetry": false,
+                    "enableSolutionsButton": false,
+                    "enableCheckButton": false,
+                    "type": "auto",
+                    "singlePoint": true,
+                    "randomAnswers": true,
+                    "showSolutionsRequiresInput": true,
+                    "confirmCheckDialog": false,
+                    "confirmRetryDialog": false,
+                    "autoCheck": true,
+                    "passPercentage": 100,
+                    "showScorePoints": false
+                },
+                "l10n": {
+                    "trueText": "True",
+                    "falseText": "False",
+                    "score": "You got @score of @total points",
+                    "checkAnswer": "Check",
+                    "submitAnswer": "Submit",
+                    "showSolutionButton": "Show solution",
+                    "tryAgain": "Retry",
+                    "wrongAnswerMessage": "Wrong answer",
+                    "correctAnswerMessage": "Correct answer",
+                    "scoreBarLabel": "You got :num out of :total points",
+                    "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                    "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                    "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                },
+                "confirmCheck": {
+                    "header": "Finish ?",
+                    "body": "Are you sure you wish to finish ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Finish"
+                },
+                "confirmRetry": {
+                    "header": "Retry ?",
+                    "body": "Are you sure you wish to retry ?",
+                    "cancelLabel": "Cancel",
+                    "confirmLabel": "Confirm"
+                },
+                "question": "<p>b comes after a<\/p>\n"
+            },
+            "library": "H5P.TrueFalse 1.8",
+            "metadata": {
+                "contentType": "True\/False Question",
+                "license": "U",
+                "title": "edited_question"
+            },
+            "subContentId": "f7cd1785-084c-4241-b517-2fe20bf39af9"
+        }
+    ],
+    "disableBackwardsNavigation": false,
+    "randomQuestions": false,
+    "endGame": {
+        "showResultPage": true,
+        "showSolutionButton": true,
+        "showRetryButton": false,
+        "noResultMessage": "Finished",
+        "message": "Your result:",
+        "scoreBarLabel": "You got @finals out of @totals points",
+        "overallFeedback": [
+            {
+                "from": 0,
+                "to": 100
+            }
+        ],
+        "solutionButtonText": "Show solution",
+        "retryButtonText": "Retry",
+        "finishButtonText": "Finish",
+        "submitButtonText": "Submit",
+        "showAnimations": true,
+        "skippable": false,
+        "skipButtonText": "Skip video"
+    },
+    "override": {
+        "checkButton": true
+    },
+    "texts": {
+        "prevButton": "Previous question",
+        "nextButton": "Next question",
+        "finishButton": "Finish",
+        "submitButton": "Submit",
+        "textualProgress": "Question: @current of @total questions",
+        "jumpToQuestion": "Question %d of %total",
+        "questionLabel": "Question",
+        "readSpeakerProgress": "Question @current of @total",
+        "unansweredText": "Unanswered",
+        "answeredText": "Answered",
+        "currentQuestionText": "Current question",
+        "navigationLabel": "Questions"
+    }
+}
