@@ -366,7 +366,7 @@
                     "cancelLabel": "Cancel",
                     "confirmLabel": "Confirm"
                 },
-                "question": "<p>b comes after a<\/p>\n"
+                "question": "<p>L comes after Q<\/p>\n"
             },
             "library": "H5P.TrueFalse 1.8",
             "metadata": {

@@ -190,6 +190,7 @@ H5P.JoubelScoreBar = (function ($) {
       self.$progress.html(createLabel(self.score));
       self.$scoreCounter.text(self.score);
       self.$maxScore.text(self.maxScore);
+      console.log(self.score+"/"+self.maxScore);
 
       setTimeout(function () {
         // Start the progressbar animation
@@ -209,7 +210,6 @@ H5P.JoubelScoreBar = (function ($) {
         }, 600);
       }, 300);
     };
-    console.log(self.score+"/"+self.maxScore);
 
     /**
      * Removes all classes

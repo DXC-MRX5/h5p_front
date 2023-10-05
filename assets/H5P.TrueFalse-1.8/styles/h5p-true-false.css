@@ -13,7 +13,16 @@
   box-shadow: 0 1px 0 0 #ccc;
   outline: none;
   background: #fff;
+  /* animation: appear 1s ease-in; */
 }
+/* @keyframes appear {
+  0%{
+      transform: translateY(-500px);
+  }
+  100%{
+      transform: translateY(0px);
+  }
+} */
 .aria-label {
   width: 0;
   height: 0;
@@ -81,7 +90,7 @@
   box-shadow: none;
   pointer-events: none;
 }
-/* When  */
+/* When */
 .h5p-transparent > div > .h5p-question.h5p-true-false > * {
   margin-left: 3px;
 }

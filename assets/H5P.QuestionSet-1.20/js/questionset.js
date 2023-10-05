@@ -1285,6 +1285,8 @@ H5P.QuestionSet = function (options, contentId, contentData) {
       true,
       this.getScore() === this.getMaxScore()
     );
+    // var xAPIData = this.getXAPIData();
+    // console.log(">>>>", xAPIData.statement);
     return {
       statement: xAPIEvent.data.statement,
       children: getXAPIDataFromChildren(this)
