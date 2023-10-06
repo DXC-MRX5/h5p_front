@@ -221,6 +221,8 @@ H5P.JoubelScoreBar = (function ($) {
 
     createHtml();
   }
-
+  // if(window.H5P){
+  //   console.log("this is something >>>>", window.H5P);
+  // }
   return JoubelScoreBar;
 })(H5P.jQuery);

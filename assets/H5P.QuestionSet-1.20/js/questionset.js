@@ -1,3 +1,4 @@
+// import { sendData } from "../../dist/interaction";
 H5P = H5P || {};
 
 /**
@@ -1314,3 +1315,19 @@ H5P.QuestionSet = function (options, contentId, contentData) {
 
 H5P.QuestionSet.prototype = Object.create(H5P.EventDispatcher.prototype);
 H5P.QuestionSet.prototype.constructor = H5P.QuestionSet;
+if(window.H5P){
+  H5P.externalDispatcher.on('xAPI', function (event) {
+    var data = {
+        statement: event.data.statement
+    };
+    // console.log("Data is here -->>", data.statement);
+    (async()=>{
+        const response = await fetch("http://localhost:5001/xapiData", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify(data.statement)
+        })
+        console.log("<-got response->")
+    })()
+})
+}
