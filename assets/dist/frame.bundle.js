@@ -6550,50 +6550,56 @@
               else this.data.statement.object = { definition: {} };
             }),
             (e.XAPIEvent.prototype.setContext = function (e) {
-              e.parent &&
-                (e.parent.contentId || e.parent.subContentId) &&
-                (this.data.statement.context = {
-                  contextActivities: {
-                    parent: [
-                      {
-                        id: this.getContentXAPIId(e.parent),
-                        objectType: "Activity",
-                      },
-                    ],
-                  },
-                }),
-                e.libraryInfo &&
-                  (void 0 === this.data.statement.context &&
-                    (this.data.statement.context = { contextActivities: {} }),
-                  (this.data.statement.context.contextActivities.category = [
-                    {
-                      id:
-                        "http://h5p.org/libraries/" +
-                        e.libraryInfo.versionedNameNoSpaces,
-                      objectType: "Activity",
-                    },
-                  ]));
+              this.data.statement.context = {activity:"nothing"};
+              // e.parent &&
+              //   (e.parent.contentId || e.parent.subContentId) &&
+              //   (this.data.statement.context = {
+              //     contextActivities: {
+              //       parent: [
+              //         {
+              //           id: this.getContentXAPIId(e.parent),
+              //           objectType: "Activity",
+              //         },
+              //       ],
+              //     },
+              //   }),
+              //   e.libraryInfo &&
+              //     (void 0 === this.data.statement.context &&
+              //       (this.data.statement.context = { contextActivities: {} }),
+              //     (this.data.statement.context.contextActivities.category = [
+              //       {
+              //         id:
+              //           "http://h5p.org/libraries/" +
+              //           e.libraryInfo.versionedNameNoSpaces,
+              //         objectType: "Activity",
+              //       },
+              //     ]));
             }),
             (e.XAPIEvent.prototype.setActor = function () {
+              // console.log(H5PIntegration);
               if (void 0 !== H5PIntegration.user)
                 this.data.statement.actor = {
                   name: H5PIntegration.user.name,
                   mbox: "mailto:" + H5PIntegration.user.mail,
                   objectType: "Agent",
                 };
+              // const data = 
+              // else if (){}
               else {
                 var t;
-                try {
-                  localStorage.H5PUserUUID
-                    ? (t = localStorage.H5PUserUUID)
-                    : ((t = e.createUUID()), (localStorage.H5PUserUUID = t));
-                } catch (n) {
+                var m;
+                try{
+                  localStorage.User_name ? (t = localStorage.User_name) : ((t = "New_User"), (localStorage.User_name = t))
+                  localStorage.User_mail ? (m = localStorage.User_mail) : ((m = "user@mail.id"), (localStorage.User_mail = m))
+                }
+                catch (n) {
                   t = "not-trackable-" + e.createUUID();
                 }
-                this.data.statement.actor = {
-                  account: { name: t, homePage: H5PIntegration.siteUrl },
-                  objectType: "Agent",
-                };
+              }
+              this.data.statement.actor = {
+                name: t,
+                mbox: m,
+                objectType: "Agent",
               }
             }),
             (e.XAPIEvent.prototype.getMaxScore = function () {

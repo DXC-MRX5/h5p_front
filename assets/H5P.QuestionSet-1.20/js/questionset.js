@@ -1320,14 +1320,16 @@ if(window.H5P){
     var data = {
         statement: event.data.statement
     };
-    // console.log("Data is here -->>", data.statement);
-    (async()=>{
-        const response = await fetch("http://localhost:5001/xapiData", {
-            method: "POST",
-            headers: {"Content-Type": "application/json"},
-            body: JSON.stringify(data.statement)
-        })
-        console.log("<-got response->")
-    })()
+    console.log("Data is here -->>", data.statement);
+    // (()=>{
+    //   fetch("http://localhost:5001/xapiData", {
+    //     method: "POST",
+    //     headers: {"Content-Type": "application/json"},
+    //     body: JSON.stringify(data.statement)
+    //   })
+    //   .then((response)=>{return response.json()})
+    //   .then((data)=>{console.log("response -->", data)})
+    //   .catch((error)=>{console.log("error occured here -->", error)})
+    // })()
 })
 }

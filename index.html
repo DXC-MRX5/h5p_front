@@ -16,6 +16,20 @@
         frameCss: "./assets/dist/styles/h5p.css",
       };
       new H5PStandalone.H5P(el, options);
+      window.addEventListener("message", function (e) {
+
+        // console.log('message event', e);
+        if (e.origin !== "http://localhost:3000") {
+            return
+        }
+        const data = JSON.parse(e.data)
+        // console.log(data);
+        if (typeof data.name !== "undefined") {
+            localStorage.setItem("User_name", data.name)
+            localStorage.setItem("User_mail", data.email)
+            console.log("Actor information is set: " + data.name + " " + data.email)
+        }
+    })
     </script>
   </body>
 </html>
