@@ -19,15 +19,20 @@
       window.addEventListener("message", function (e) {
 
         // console.log('message event', e);
-        if (e.origin !== "http://localhost:3000" || "https://h5p-interactive-quiz.netlify.app") {
-            return
-        }
-        const data = JSON.parse(e.data)
+        const allowedOrigins = ["http://localhost:3000", "https://h5p-interactive-quiz.netlify.app"]
+        // if (e.origin !== ) {
+        //     return
+        // }
+        if(allowedOrigins.includes(e.origin)){const data = JSON.parse(e.data)
         // console.log(data);
-        if (typeof data.name !== "undefined") {
-            localStorage.setItem("User_name", data.name)
-            localStorage.setItem("User_mail", data.email)
-            console.log("Actor information is set: name->" + data.name + " email-> " + data.email)
+          if (typeof data.name !== "undefined") {
+              localStorage.setItem("User_name", data.name)
+              localStorage.setItem("User_mail", data.email)
+              console.log("Actor information is set: name->" + data.name + " email-> " + data.email)
+          }
+        }
+        else{
+          return
         }
     })
     </script>

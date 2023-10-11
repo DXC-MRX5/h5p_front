@@ -380,7 +380,7 @@
     "disableBackwardsNavigation": false,
     "randomQuestions": false,
     "endGame": {
-        "showResultPage": false,
+        "showResultPage": true,
         "showSolutionButton": true,
         "showRetryButton": false,
         "noResultMessage": "Finished",
