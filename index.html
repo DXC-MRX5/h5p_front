@@ -19,7 +19,7 @@
       window.addEventListener("message", function (e) {
 
         // console.log('message event', e);
-        if (e.origin !== "http://localhost:3000") {
+        if (e.origin !== "http://localhost:3000" || "https://h5p-interactive-quiz.netlify.app") {
             return
         }
         const data = JSON.parse(e.data)
@@ -27,7 +27,7 @@
         if (typeof data.name !== "undefined") {
             localStorage.setItem("User_name", data.name)
             localStorage.setItem("User_mail", data.email)
-            console.log("Actor information is set: " + data.name + " " + data.email)
+            console.log("Actor information is set: name->" + data.name + " email-> " + data.email)
         }
     })
     </script>
